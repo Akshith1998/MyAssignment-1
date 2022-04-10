@@ -1,7 +1,105 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+#container {
+   
+    width: 100%;
+    height: 100%;
+    margin: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+header {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: lightskyblue;
+}
+
+img,form{
+    display: inline-block;
+}
+
+img{
+    margin: 15px;
+}
+
+form{
+    margin-top: 10px;
+    float: right;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+nav ul{
+    margin: 1px;
+    padding: 1px;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 15%;
+}
+
+#middle{
+    margin: 10px;
+    padding: 10px; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display: block;
+}
+
+.left-side,section,.right-side{
+    display: inline-block;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    
+}
+
+.left-side{
+    float: left;
+    width: 10%;
+    padding-bottom: 174px;
+}
+
+#main-content-section{
+    width: 75%;
+    
+    margin-left: 33px;
+}
+
+.post-img{
+    padding-left: 40px ;
+    width: 25%;
+    height: 25%;
+}
+
+.right-side{
+    width: 10%;
+    padding-bottom: 248px;
+    float: right;
+}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
